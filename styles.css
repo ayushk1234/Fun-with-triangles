@@ -2,3 +2,7 @@ section{
     padding:1rem;
     border:1rem;
 }
+
+body{
+    align-self: auto;
+}
