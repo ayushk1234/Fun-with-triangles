@@ -1,75 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quiz on triangle</title>
-    <link href="styles.css" rel="stylesheet"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Quiz on triangle</title>
+        <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
 
         <div>
                 <a href="/"> Go Back</a>
         </div>
-        <ul>
-            <li>
-                    If a triangle has angles 1350, 150, 300. Is it an obtuse triangle?
-                    <input type="radio" id ="y"> </input>
-                    <label for="y">Yes</label>
-                    <input type="radio" id ="n"> </input>
-                    <label for="n">No</label>
 
-            </li>
-            <li>
-                    If a triangle has angles 1150, 250, 400. Is it an acute triangle?
-                    <input type="radio" id ="y"> </input>
-                    <label for="y">Yes</label>
-                    <input type="radio" id ="n"> </input>
-                    <label for="n">No</label>
+        <form class="quiz-form">
+                <ul>
+                        <li>
+                                If a triangle has angles 1350, 150, 300. Is it an obtuse triangle?
+                                <input type="radio"  name="question1" value="yes"> </input>
+                                <label for="y">Yes</label>
+                                <input type="radio"  name="question1" value ="no"> </input>
+                                <label for="n">No</label>
 
-            </li>
-            <li>
-                    If a triangle has angles 900, 600, 300. Is it a right angle triangle?
-                    <input type="radio" id ="y"> </input>
-                    <label for="y">Yes</label>
-                    <input type="radio" id ="n"> </input>
-                    <label for="n">No</label>
+                        </li>
+                        <li>
+                                If a triangle has angles 1150, 250, 400. Is it an acute triangle?
+                                <input type="radio"  name="question2" value="yes"> </input>
+                                <label for="y">Yes</label>
+                                <input type="radio"  name="question2" value ="no"> </input>
+                                <label for="n">No</label>
 
-            </li>
-            <li>
-                    A triangle has angles 600, 600, 600. Is it an equilateral triangle?
-                    <input type="radio" id ="y"> </input>
-                    <label for="y">Yes</label>
-                    <input type="radio" id ="n"> </input>
-                    <label for="n">No</label>
+                        </li>
+                        <li>
+                                If a triangle has angles 900, 600, 300. Is it a right angle triangle?
+                                <input type="radio"  name="question3" value="yes"> </input>
+                                <label for="y">Yes</label>
+                                <input type="radio"  name="question3" value ="no"> </input>
+                                <label for="n">No</label>
 
-            </li>
-            <li>
-                    If a triangle has angles 250, 750, 800. Is it an acute triangle?
-                    <input type="radio" id ="y"> </input>
-                    <label for="y">Yes</label>
-                    <input type="radio" id ="n"> </input>
-                    <label for="n">No</label>
+                        </li>
+                        <li>
+                                A triangle has angles 600, 600, 600. Is it an equilateral triangle?
+                                <input type="radio" name="question4" value="yes"> </input>
+                                <label for="y">Yes</label>
+                                <input type="radio" name="question4" value ="no"> </input>
+                                <label for="n">No</label>
 
-            </li>
-            <li>
-                    If a triangle has 2 sides with equal lengths and 750 angle between them. What is the type of triangle?
-                    <input type="radio" id ="y"> </input>
-                    <label for="y">Yes</label>
-                    <input type="radio" id ="n"> </input>
-                    <label for="n">No</label>
+                        </li>
+                        <li>
+                                If a triangle has angles 250, 750, 800. Is it an acute triangle?
+                                <input type="radio"  name="question5" value="yes"> </input>
+                                <label for="y">Yes</label>
+                                <input type="radio"  name="question5" value ="no"> </input>
+                                <label for="n">No</label>
 
-            </li>
-        </ul>
-        
+                        </li>
+                        <li>
+                                If a triangle has 2 sides with equal lengths and 750 angle between them. What is the type of triangle?
+                                <input type="radio"  name="question6" value="yes"> </input>
+                                <label for="y">Yes</label>
+                                <input type="radio"  name="question6" value ="no"> </input>
+                                <label for="n">No</label>
+
+                        </li>
+                </ul>
+        </form>
+
         <section>
-            <input type="submit" id="sub"></input>
+                <!-- <input type="submit" id="sub"></input> -->
+                <button id="quiz-submit-btn">Submit for evaluation</button>
         </section>
         <div>
-            <textarea id="score"></textarea>
+                <textarea id="score"></textarea>
         </div>
-    
-        <script src ="quiz.js" type="text/javascript"></script>
+
+        <script src="quiz.js" type="text/javascript"></script>
 </body>
+
 </html>
