@@ -3,6 +3,10 @@ section{
     border:1rem;
 }
 
+
+div{
+    padding: 1rem;
+}
 body{
     align-self: auto;
 }
